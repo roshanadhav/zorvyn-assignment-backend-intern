@@ -1,5 +1,12 @@
 # Finance Data Processing & Access Control Backend
 
+## Live Backend
+
+The backend API is hosted and available at:
+
+[https://zorvyn-assignment-backend-intern.onrender.com/](https://zorvyn-assignment-backend-intern.onrender.com/)
+
+You can use this base URL to test all endpoints.
 ## Overview
 
 This project is a backend system for a finance dashboard that manages financial records with role-based access control (RBAC) and provides aggregated analytics.
