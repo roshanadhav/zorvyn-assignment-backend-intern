@@ -7,6 +7,7 @@ import cors from 'cors'
 import connection from './config/db.js';
 import authRouter from './modules/auth/authRouter.js';
 import cookieParser from 'cookie-parser'
+import { doc } from './config/email.config.js';
 dotenv.config() ; 
 const app = express() ; 
 app.use(express.json()); 
@@ -25,7 +26,7 @@ app.use('/api/auth' , authRouter);
 
 
 app.get('/' , (req , res)=>{
-    res.send("thanks for visiting we are working on it documentation will shortly visible on same page")
+    res.send(doc)
 })
 
 
